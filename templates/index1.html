@@ -1,0 +1,20 @@
+{% extends "base.html" %} {% block content %}
+
+
+<div>
+    
+    <div > 
+    <h3 style="color: rgb(1, 1, 2); font-weight: bold;">
+        <h2>Extracted Text from given Image File:</h2><br>
+        {{text}}
+    </h3>
+    </div>
+    <br>
+    <div >
+        <h2> Text File Saved at  </h2><br>
+        {{file_path}}
+    </div>
+    
+</div>
+
+{% endblock %}
